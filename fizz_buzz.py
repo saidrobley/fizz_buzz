@@ -1,9 +1,10 @@
 
 for i in range(1,101):
     if i % 3 == 0 and i % 5 == 0:
-        print(str(i) + ": FizzBuzz")
+        print("{}: FizzBuzz".format(i))
     elif i % 3 == 0:
-        print(str(i) + ": Fizz")
+        print("{}: Fizz".format(i))
     elif i % 5 == 0:
-        print(str(i) + ": Buzz")
+        print("{}: Buzz".format(i))
+
 
